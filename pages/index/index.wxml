@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap="toApplets">跳转小程序</button>
+</view>
