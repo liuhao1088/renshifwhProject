@@ -7,17 +7,6 @@ Page({
   data: {
    
   },
-  toApplets(){
-     wx.navigateToMiniProgram({
-      appId: 'wxf63dcaf8f95ea541',
-      path:  "pages/home/home", //跳转小程序的路径
-      success(res) {
-        // 打开成功
-        console.log(res)
-      } 
-    })
-
-  },
 
   /**
    * 生命周期函数--监听页面加载
