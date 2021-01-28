@@ -1,2 +1,4 @@
-<!--pages/luxury/luxury.wxml-->
-<text>pages/luxury/luxury.wxml</text>
+<import src="/template/myTemplate.wxml"></import>
+<view class="luxuriousContainer">
+  <template is="list" data="{{...item}}"></template>
+</view>

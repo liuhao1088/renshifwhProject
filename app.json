@@ -1,11 +1,16 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/luxury/luxury",
+    "pages/benz/benz",
+    "pages/bmw/bmw",
+    "pages/audi/audi",
+    
+    
     "pages/luxurious/luxurious",
     "pages/landRover/landRover",
     "pages/porsche/porsche",
     "pages/maserati/maserati",
-    "pages/luxury/luxury",
     "pages/lightLuxury/lightLuxury"
     
   ],
