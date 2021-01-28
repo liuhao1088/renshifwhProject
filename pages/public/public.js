@@ -1,4 +1,4 @@
-// pages/lightLuxury/lightLuxury.js
+// pages/public/public.js
 Page({
 
   /**
@@ -6,25 +6,22 @@ Page({
    */
   data: {
     item: {
-      headerUrl:'https://img14.360buyimg.com/ddimg/jfs/t1/157336/14/5023/649883/601272e8Ecc9dbd51/4eb86d17299f5e62.jpg',
+      headerUrl:'https://img11.360buyimg.com/ddimg/jfs/t1/166091/21/4182/559118/60127436Ec4674847/e5c0aae809238cec.jpg',
       detailUrl:[
         {
-          name:'大众车系',
-          url:'https://img12.360buyimg.com/ddimg/jfs/t1/160444/26/5292/806662/60127324E0c09b4ab/e0dcb1ab0f4c724f.png'
+          url:'https://img12.360buyimg.com/ddimg/jfs/t1/162173/19/4701/822698/60127449Ef8c27ceb/f7c7f6965e9e8448.jpg'
         },
+        {
+          url:'https://img12.360buyimg.com/ddimg/jfs/t1/164793/31/4551/737663/6012745aE989804d4/93a41598e2dc58d5.jpg'
+        },
+        {
+          url:' https://img14.360buyimg.com/ddimg/jfs/t1/156804/20/7996/570301/60127495Eddfe044e/de3241a03128f393.jpg'
+        },
+        {
+          url:'https://img10.360buyimg.com/ddimg/jfs/t1/162121/30/4723/700647/6012746eE520a4c07/52ccfe5e84bf094a.jpg'
+        },
+
       ],
-      advertisingUrl:'https://img10.360buyimg.com/ddimg/jfs/t1/157859/5/5337/130584/601259bcE7d95cf93/4f604db35e80492d.png',
-      id:0
-    }
-  },
-  toDetail(e){
-    let id = e.currentTarget.id;
-    id = parseInt(id);
-    if(id === 0){
-      console.log(id)
-      wx.navigateTo({
-        url: '/pages/public/public',
-      })
     }
   },
 

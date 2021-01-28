@@ -1,17 +1,17 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/lightLuxury/lightLuxury",
     "pages/luxury/luxury",
     "pages/benz/benz",
     "pages/bmw/bmw",
     "pages/audi/audi",
-    
-    
+    "pages/public/public",
     "pages/luxurious/luxurious",
     "pages/landRover/landRover",
     "pages/porsche/porsche",
-    "pages/maserati/maserati",
-    "pages/lightLuxury/lightLuxury"
+    "pages/maserati/maserati"
+    
     
   ],
   "window":{

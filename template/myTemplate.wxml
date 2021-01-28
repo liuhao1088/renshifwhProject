@@ -25,7 +25,7 @@ customization the leading brand of dedicated recorder industry
         <image src="{{item.url}}" mode="widthFix" style="border-radius: 8rpx;"></image>
       </view>
 
-      <view class="demarcation" style="display: {{index === 2? 'none' : 'block'}};"></view>
+      <view class="demarcation" style="display: {{index === id? 'none' : 'block'}};"></view>
     </view>
     
     <view class="advertising-item" wx:if="{{advertisingUrl}}">
