@@ -21,6 +21,7 @@ Page({
           url:'https://img14.360buyimg.com/ddimg/jfs/t1/167964/9/3802/649109/60123528Ea5015444/dac260526335679d.png'
         }
       ],
+      id:2
     }
   },
   toDetail(e){
@@ -94,7 +95,7 @@ Page({
   /**
    * 用户点击右上角分享
    */
-  // onShareAppMessage: function () {
+  onShareAppMessage: function () {
 
-  // }
+  }
 })

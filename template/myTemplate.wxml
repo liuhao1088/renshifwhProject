@@ -12,16 +12,16 @@
             <view class="box-item"></view>
             <view class="box-title">{{item.name}}</view>
           </view>
-          <view class="but-item column justify-center align-center">
+          <view class="but-item column justify-center align-center" id='{{index}}' bindtap="toDetail">
             <button
-              style="width:100%; line-height: 40rpx;font-size: 24rpx;padding: 0;border-radius: 20rpx;" id='{{index}}' bindtap="toDetail" hover-class="none">{{id === 2?'了解详情':'查看更多'}}</button>
+              style="width:100%; line-height: 40rpx;font-size: 24rpx;padding: 0;border-radius: 20rpx;"  hover-class="none">{{id === 2?'了解详情':'查看更多'}}</button>
           </view>
         </view>
         <view class="msg-item">Luxury car special equipment wonderful
 customization the leading brand of dedicated recorder industry
         </view>
       </view>
-      <view class="img-item">
+      <view class="img-item" id='{{index}}' bindtap="toDetail">
         <image src="{{item.url}}" mode="widthFix" style="border-radius: 8rpx;"></image>
       </view>
 
