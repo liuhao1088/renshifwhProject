@@ -1,4 +1,4 @@
 <import src="/template/myTemplate.wxml"></import>
-<view class="container">
+<view class="luxuriousContainer">
   <template is="list" data="{{...item}}"></template>
 </view>

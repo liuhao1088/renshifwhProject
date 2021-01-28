@@ -1,0 +1,4 @@
+<import src="/template/myTemplate.wxml"></import>
+<view class="maseratiContainer">
+  <template is="detail" data="{{...item}}"></template>
+</view>

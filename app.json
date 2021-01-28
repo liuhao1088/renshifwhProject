@@ -1,12 +1,16 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/luxurious/luxurious",
+    "pages/landRover/landRover",
+    "pages/porsche/porsche",
+    "pages/maserati/maserati",
+    "pages/luxury/luxury",
+    "pages/lightLuxury/lightLuxury"
+    
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "仁狮",
-    "navigationBarTextStyle":"black"
+    "navigationStyle": "custom"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
